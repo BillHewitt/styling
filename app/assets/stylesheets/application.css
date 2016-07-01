@@ -23,4 +23,8 @@
     height: 650px;
 }
 
+div.section.section-nude.whole-page {
+	min-height: 100vh;
+}
+
  

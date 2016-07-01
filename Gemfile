@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.3.0'
 
 
 
@@ -15,6 +16,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'themify-icons-rails'
 gem "font-awesome-rails"
 gem 'paper_kit_pro', '1.0.4.2', :path => 'lib/paper_kit_pro'
+gem 'devise'
 
 
 

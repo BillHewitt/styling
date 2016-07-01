@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'pages/register'
+  get 'pages/login'
+
+  devise_for :users
   get 'controller/ACTION' => 'controller#ACTION'
   get 'controller/ACTION' => 'controller#ACTION'
   root 'pages#home'
