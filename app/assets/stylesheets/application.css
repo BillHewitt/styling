@@ -27,4 +27,20 @@ div.section.section-nude.whole-page {
 	min-height: 100vh;
 }
 
+
+.alert {
+    padding: 15px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-collapse {
+    padding-left: 0px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 0px;
+}
  

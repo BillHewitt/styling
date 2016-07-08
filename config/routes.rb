@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   get 'pages/register'
   get 'pages/login'
+  get 'pages/error'
+  get 'pages/ingredients'
 
   devise_for :users
   get 'controller/ACTION' => 'controller#ACTION'
