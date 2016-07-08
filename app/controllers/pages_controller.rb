@@ -11,6 +11,6 @@ class PagesController < ApplicationController
   def error
   end
 
-  def ingredients
+  def products
   end
 end

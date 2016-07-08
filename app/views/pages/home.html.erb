@@ -16,6 +16,8 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navigation-example-2">
         <ul class="nav navbar-nav navbar-right">
+        <%= link_to "Error states", pages_error_path, class: "btn btn-simple btn-neutral hidden-xs" %>
+        <%= link_to "Products", pages_products_path, class: "btn btn-simple btn-neutral hidden-xs" %>
               <%= link_to "Login", pages_login_path, class: "btn btn-simple btn-neutral hidden-xs" %>
               </a>
               <%= link_to "Sign up free", pages_register_path, class: "btn btn-neutral hidden-xs" %>
@@ -25,6 +27,11 @@
             <li>
               <%= link_to "Sign up free", pages_register_path, class: "btn btn-neutral visible-xs" %>
             </li>
+            <li>
+            <%= link_to "Error states", pages_error_path, class: "btn btn-simple btn-neutral visible-xs" %></li>
+            <li>
+        <%= link_to "Products", pages_products_path, class: "btn btn-simple btn-neutral visible-xs" %>
+        </li>
          </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-->
