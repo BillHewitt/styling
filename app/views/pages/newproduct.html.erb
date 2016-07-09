@@ -43,21 +43,18 @@
 </br>
 <div class="row">
 <div class="container">
-<select name="huge" class="selectpicker visible-sm visible-xs" data-style="btn-default btn-fill btn-block btn-move-right" data-menu-style="dropdown-blue">
-    
-        <option disabled selected> Add New </option>
-    
-        <option value="1">Product </option>
-    
-        <option value="1">Dough </option>
-
-        <option value="1">Levain </option>
-
-        <option value="1">Soaker </option>
-
-        <option value="1">Ingredient </option>
-    
-    </select>
+<span class="dropdown">
+  <button href="#" class="dropdown-toggle btn btn-default btn-fill btn-move-right visible-xs visible-sm" data-toggle="dropdown">Add new <i class="ti-plus"></i></button>
+<!--                                  You can add classes for different colours on the next element -->
+  <ul class="dropdown-menu dropdown-default dropdown-menu-left">
+    <li class="dropdown-header">Add New</li>
+    <li><a href="#">Product </a></li>
+    <li><a href="#">Dough </a></li>
+    <li><a href="#">Levain </a></li>
+    <li><a href="#">Soaker </a></li>
+    <li><a href="#">Ingredient </a></li>
+  </ul>
+</span>
 </div>
 </span>
 </div>
@@ -239,7 +236,6 @@
 	</div>
 	<div class="visible-xs visible-sm">
 	<button class="btn btn-danger btn-fill btn-block">Save</button>
-	
 	<button class="btn btn-default btn-block">Cancel</button>
 
 	</div>
