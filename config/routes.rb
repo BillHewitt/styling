@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'pages/login'
   get 'pages/error'
   get 'pages/products'
+  get 'pages/newproduct'
 
   devise_for :users
   get 'controller/ACTION' => 'controller#ACTION'

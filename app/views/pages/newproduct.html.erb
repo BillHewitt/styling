@@ -1,0 +1,247 @@
+    <div id="navbar">
+    
+        <nav class="navbar navbar-default" role="navigation">
+    
+          <div class="container">
+    
+            <div class="navbar-header">
+    
+    
+              <%= link_to "Cocoon", root_path, class: "navbar-brand" %>
+    
+            </div>
+    
+          </div><!-- /.container-fluid -->
+    
+        </nav>
+    
+    </div><!--  end navbar --> 
+
+</div>          
+<div class="whole-page">
+<div class="wrapper">
+  <div class="section section-nude whole-page">
+<div class="container">
+<div class="row">
+<div class="container">
+<select name="huge" class="selectpicker visible-sm visible-xs" data-style="btn-info btn-fill btn-block" data-menu-style="dropdown-blue">
+    
+        <option value="1">Products </option>
+    
+        <option value="1">Doughs </option>
+
+        <option value="1">Levains </option>
+
+        <option value="1">Soakers </option>
+
+        <option value="1">Ingredients </option>
+    
+    </select>
+  </div>
+</div>
+</br>
+<div class="row">
+<div class="container">
+<span class="dropdown visible-xs visible-sm">
+  <button href="#" class="dropdown-toggle btn btn-fill btn-move-right btn-block" data-toggle="dropdown">Add New <i class="ti-plus"></i></button>
+<!--                                  You can add classes for different colours on the next element -->
+<div class="row">
+  <ul class="dropdown-menu dropdown-primary dropdown-menu-right">
+    <li class="dropdown-header">Add New</li>
+    <li><a href="#">Product</a></li>
+    <li><a href="#">Dough</a></li>
+    <li><a href="#">Levain</a></li>
+    <li><a href="#">Soaker</a></li>
+    <li><a href="#">Ingredient</a></li>
+  </ul>
+</span>
+</div>
+</span>
+</div>
+
+ 
+        <nav class="navbar navbar-default hidden-sm hidden-xs" role="navigation">
+    
+          <div class="container-fluid">
+    
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    
+              <ul class="nav navbar-nav">
+    
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Doughs</a></li>
+                <li><a href="#">Levains</a></li>
+                <li><a href="#">Soakers</a></li>
+                <li><a href="#">Ingredients</a></li>
+    					</ul>
+
+    					<ul class="nav navbar-nav navbar-right">
+    
+                <li class="dropdown">
+
+                                      <button href="#" class="dropdown-toggle btn btn-fill btn-move-right" data-toggle="dropdown" aria-expanded="false">Add new <i class="ti-plus"></i></button>
+<!--                                  You can add classes for different colours on the next element -->
+                                      <ul class="dropdown-menu dropdown-menu-right">
+                                        <li class="dropdown-header">Add new</li>
+                                        <li><a href="#">Product</a></li>
+                                        <li><a href="#">Dough</a></li>
+                                        <li><a href="#">Levain</a></li>
+                                        <li><a href="#">Soaker</a></li>
+                                        <li><a href="#">Ingredient</a></li>
+                                      </ul>
+                                    </li>
+    					</ul>
+    
+            </div><!-- /.navbar-collapse -->
+    
+          </div><!-- /.container-fluid -->
+    
+        </nav>
+    
+    </div><!--  end navbar --> 
+    </br>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-5">
+		<h3>
+		Add new product
+		</h3>
+		</br>
+			<div class="form-group">
+          <h6>Name <span class="icon-danger">*</span></h6>
+          <input type="text" class="form-control border-input" placeholder="Name">
+      </div>
+      <h6>Category <span class="icon-danger">*</span></h6>
+      <select name="huge" class="selectpicker" data-style="form-control border-input" data-menu-style="">
+    
+        <option disabled selected> Choose category</option>
+    
+        <option value="1">Rolls & Baps </option>
+    
+        <option value="1">Savoury Extras</option>
+    
+    </select>
+    <h6>Price <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tooltip on top" data-trigger="manual"></i></h6>
+    <div class="input-group border-input">
+    <span class="input-group-addon"><i class="fa fa-gbp"></i><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+    
+        <input type="text" placeholder="0.00" class="form-control border-input">
+
+    
+    </div>
+   </div>
+  </div>
+<hr>
+<div class="row">
+	<div class="col-md-12">
+	<h3>Setup Product</h3>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-5">
+		<h6>Dough <span class="icon-danger">*</span></h6>
+      <select name="huge" class="selectpicker" data-style="form-control border-input" data-menu-style="">
+    
+        <option disabled selected> Choose dough</option>
+    
+        <option value="1">Dough 1 </option>
+    
+        <option value="1">Dough 2 </option>
+    
+    </select>
+    <h6>Finish <span class="icon-danger">*</span></h6>
+      <select name="huge" class="selectpicker" data-style="form-control border-input" data-menu-style="">
+    
+        <option disabled selected> Choose finish</option>
+    
+        <option value="1">Finish 1 </option>
+    
+        <option value="1">Finish 2 </option>
+    
+    </select>
+    <h6>Baking Style <span class="icon-danger">*</span></h6>
+      <select name="huge" class="selectpicker" data-style="form-control border-input" data-menu-style="">
+    
+        <option disabled selected> Choose baking style</option>
+    
+        <option value="1">Baking style 1 </option>
+    
+        <option value="1">Baking style 2 </option>
+    
+    </select>
+    <h6>Packing Column <span class="icon-danger">*</span></h6>
+      <select name="huge" class="selectpicker" data-style="form-control border-input" data-menu-style="">
+    
+        <option disabled selected> Choose packing column</option>
+    
+        <option value="1">400g </option>
+    
+        <option value="1">1200g </option>
+    
+    </select>
+	</div>
+<div class="col-md-7">
+	<div class="row">
+		<div class="col-md-6">
+					<h6>Dry Weight <span class="icon-danger">*</span><i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tooltip on top" data-trigger="manual"></i></h6>
+			    <div class="input-group border-input">
+	    
+	        <input type="text" placeholder="0.00" class="form-control border-input">
+	        <span class="input-group-addon">g<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+
+	  </div>
+	</div>
+			<div class="col-md-6">
+				<h6>Wet Weight <span class="icon-danger">*</span><i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tooltip on top" data-trigger="manual"></i></h6>
+		    <div class="input-group border-input">
+    
+        <input type="text" placeholder="0.00" class="form-control border-input">
+        <span class="input-group-addon">g<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+
+  </div>
+</div>
+</div>
+    <div class="row">
+				<div class="col-md-12">
+					<h6>Notes</h6>
+			    <!-- textarea with border -->
+<textarea class="form-control border-input" placeholder="This is a textarea with border. Here can be your nice text" rows="3"></textarea>
+
+
+	    	</div>
+	    </div>
+	    </br>
+<div class="row">
+				<div class="col-md-12">
+	    <input name="tagsinput" class="tagsinput tag-{blue} tag-fill" value="Best seller, Experimental, Sourdough"/>
+	   </div>
+	 </div>
+	</div>
+	</div>
+	</div>
+	</br>
+		</br>
+
+
+<div class="container">
+	<div class="row">
+	<div class="col-md-12">
+	<div class="pull-right">
+
+	<button class="btn btn-default">Cancel</button>
+	<button class="btn btn-danger btn-fill">Save</button>
+	</div>
+	</div>
+
+	</div>
+
+</div>
+    
+
+   
+
+		
+          

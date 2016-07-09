@@ -35,5 +35,11 @@ div.section.section-nude.whole-page {
     border-radius: 4px;
 }
 
-
+h6, .h6 {
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: #9A9A9A;
+}
  

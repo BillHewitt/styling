@@ -13,4 +13,7 @@ class PagesController < ApplicationController
 
   def products
   end
+
+  def newproduct
+  end
 end
