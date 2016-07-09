@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'pages/error'
   get 'pages/products'
   get 'pages/newproduct'
+  get 'pages/products2'
 
   devise_for :users
   get 'controller/ACTION' => 'controller#ACTION'

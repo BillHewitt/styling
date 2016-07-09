@@ -68,7 +68,7 @@
     
               <ul class="nav navbar-nav">
     
-                <li><a href="#">Products</a></li>
+                <li class="active"><a href="#">Products</a></li>
                 <li><a href="#">Doughs</a></li>
                 <li><a href="#">Levains</a></li>
                 <li><a href="#">Soakers</a></li>
@@ -109,10 +109,14 @@
 		Add new product
 		</h3>
 		</br>
-			<div class="form-group">
-          <h6>Name <span class="icon-danger">*</span></h6>
-          <input type="text" class="form-control border-input" placeholder="Name">
-      </div>
+			<h6>Name <span class="icon-danger">*</span></h6>
+			<div class="form-group has-error has-feedback">
+    
+        <input type="text" value="Please enter the product's name" class="form-control border-input" />
+    
+        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+    
+    </div>
       <h6>Category <span class="icon-danger">*</span></h6>
       <select name="huge" class="selectpicker" data-style="form-control border-input" data-menu-style="">
     
