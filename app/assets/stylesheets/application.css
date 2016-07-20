@@ -42,4 +42,12 @@ h6, .h6 {
     padding-top: 10px;
     color: #9A9A9A;
 }
+
+p.error {
+    color: #FF8F5E;
+}
+
+ul.nav.navbar-nav.bill {
+    margin-left: -55px;
+}
  
