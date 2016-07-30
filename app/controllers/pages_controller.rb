@@ -31,4 +31,16 @@ class PagesController < ApplicationController
 
   def newpreferment
   end
+
+  def soakers
+  end
+
+  def newsoaker
+  end
+
+  def newingredient
+  end
+
+  def ingredient
+  end
 end

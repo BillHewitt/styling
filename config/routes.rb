@@ -9,6 +9,10 @@ Rails.application.routes.draw do
   get 'pages/newdough'
   get 'pages/preferments'
   get 'pages/newpreferment'
+  get 'pages/soakers'
+  get 'pages/newsoaker'
+  get 'pages/ingredient'
+  get 'pages/newingredient'
 
   devise_for :users
   get 'controller/ACTION' => 'controller#ACTION'
