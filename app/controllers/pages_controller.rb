@@ -19,4 +19,10 @@ class PagesController < ApplicationController
 
   def products2
   end
+
+  def doughs
+  end
+
+  def newdough
+  end
 end

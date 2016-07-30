@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get 'pages/products'
   get 'pages/newproduct'
   get 'pages/products2'
+  get 'pages/doughs'
+  get 'pages/newdough'
 
   devise_for :users
   get 'controller/ACTION' => 'controller#ACTION'
