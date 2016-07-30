@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get 'pages/products2'
   get 'pages/doughs'
   get 'pages/newdough'
+  get 'pages/preferments'
+  get 'pages/newpreferment'
 
   devise_for :users
   get 'controller/ACTION' => 'controller#ACTION'

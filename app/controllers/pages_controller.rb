@@ -25,4 +25,10 @@ class PagesController < ApplicationController
 
   def newdough
   end
+
+  def preferments
+  end
+
+  def newpreferment
+  end
 end
