@@ -43,4 +43,8 @@ class PagesController < ApplicationController
 
   def ingredient
   end
+
+  def confirmation
+  end
+  
 end

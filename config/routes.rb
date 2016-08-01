@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'pages/newsoaker'
   get 'pages/ingredient'
   get 'pages/newingredient'
+  get 'pages/confirmation'
 
   devise_for :users
   get 'controller/ACTION' => 'controller#ACTION'
