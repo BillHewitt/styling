@@ -14,6 +14,8 @@ Rails.application.routes.draw do
   get 'pages/ingredient'
   get 'pages/newingredient'
   get 'pages/confirmation'
+  get 'pages/customer'
+  get 'pages/newcustomer'
 
   devise_for :users
   get 'controller/ACTION' => 'controller#ACTION'
