@@ -1,0 +1,624 @@
+    <div id="navbar">
+    
+        <nav class="navbar navbar-default" role="navigation">
+    
+          <div class="container">
+    
+            <div class="navbar-header">
+    
+    
+              <%= link_to "Cocoon", root_path, class: "navbar-brand" %>
+    
+            </div>
+    
+          </div><!-- /.container-fluid -->
+    
+        </nav>
+    
+    </div><!--  end navbar --> 
+
+</div>          
+<div class="whole-page">
+<div class="wrapper">
+  <div class="section section-white whole-page">
+<div class="container">
+	<div class="row">
+		<div class="col-md-5">
+		<h3>
+		New Order
+		</h3>
+      <h6>Customer <span class="icon-danger">*</span></h6>
+      <select name="huge" class="selectpicker" data-style="form-control border-input" data-menu-style="">
+    
+        <option disabled selected>Choose Customer</option>
+    
+        <option value="1">Customer name 1 </option>
+    
+        <option value="1">Customer name 2</option>
+        <option value="1">Customer name 3</option>
+    
+    </select>
+      <h6>Date <span class="icon-danger">*</span></h6>
+        <input class="datepicker form-control border-input" type="text"/>
+        <br>
+
+      <p>
+
+                      <label class="checkbox checked" for="checkbox1">
+                        <span class="icons"><span class="first-icon fa fa-square fa-base"></span><span class="second-icon fa fa-check-square fa-base"></span></span><input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
+                        Recurring <b>Weekly on Monday, until 18 Sep 2016   </b><a><u class="billiam" data-toggle="modal" data-target="#myModal2">edit</u></a>
+                      </label>
+      </p>
+</div>
+  </div>
+<hr>
+<div class="row">
+	<div class="col-md-5">
+	<h3>Setup Order</h3>
+	</div>
+
+<div class="col-md-12">
+
+<div class="row">
+<div class="adding">
+  <div class="border col-sm-3 col-xs-12">
+
+    <select name="huge" class="selectpicker" data-style="form-control border-input" data-menu-style="">
+      
+          <option value="1">Product </option>
+      
+          <option value="1">Product 2 </option>
+          <option value="1">Product 3 </option>
+    
+    </select>
+
+  </div>
+  <div class="border col-sm-3 col-xs-12">
+
+    <select name="huge" class="selectpicker" data-style="form-control border-input" data-menu-style="">
+      
+          <option value="1">Slice </option>
+      
+          <option value="1">None </option>
+          <option value="1">Thin </option>
+    
+    </select>
+
+  </div>
+  <div class="border col-sm-3 col-xs-12">
+
+    <div class="input-group border-input">
+                    <input type="text" placeholder="Quantity" class="form-control border-input">
+                    <span class="input-group-addon"></span>
+                  </div>
+
+
+  </div>
+  <div class="border col-sm-3 col-xs-12">
+   
+  </div>
+</div>
+</div>
+<hr>
+
+<div class="row">
+  <div class="border col-sm-3 col-xs-12">
+
+    <div class="border col-sm-3 col-xs-12">
+    <a class="btn btn-primary btn-fill" href="#">Add new row</a>
+  </div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-md-8 col-xs-7">
+    <a href="#fakelink" class="pull-right" data-toggle="modal" data-target="#myModal7">Add discount</a>
+  </div>
+  <div class="col-md-4 col-xs-5">
+    <p class="pull-left">
+      -
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-8 col-xs-7">
+    <p class="pull-right">
+      <b>Subtotal</b>
+    </p>
+  </div>
+  <div class="col-md-4 col-xs-5">
+    <p class="pull-left">
+      <b>£142.50</b>
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-8 col-xs-7">
+    <a href="#fakelink" class="pull-right" data-toggle="modal" data-target="#myModal9">Add delivery</a>
+  </div>
+  <div class="col-md-4 col-xs-5">
+    <p class="pull-left">
+      -
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-8 col-xs-7">
+    <a href="#fakelink" class="pull-right" data-toggle="modal" data-target="#myModal10">VAT</a>
+  </div>
+  <div class="col-md-4 col-xs-5">
+    <p class="pull-left">
+      -
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-8 col-xs-7">
+    <h4 class="pull-right">
+      <b>Total</b>
+    </h4>
+  </div>
+  <div class="col-md-4 col-xs-5">
+    <h4 class="pull-left">
+      <b>£142.50</b>
+    </h4>
+  </div>
+</div>
+<hr>
+
+  
+
+
+
+<div class="row">
+    <div class="col-md-5">
+    <h6></h6>
+      <ul class="nav nav-pills nav-pills-blue">
+  
+    
+        <!--  color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-warning", "nav-pills-danger", "nav-pills-success" -->
+    
+          <li class="active"><a href="#">To be delivered</a></li>
+    
+          <li><a href="#"> To be collected</a></li>
+    
+    </ul>
+
+ 
+
+    </div>
+    <div class="col-md-7">
+          <h6>Notes </h6>
+          <textarea class="form-control border-input" placeholder="Add any notes you'd like about this order" rows="8"></textarea>
+         
+
+    </div>
+  </div>
+
+
+
+</br>
+
+<div class="container">
+	<div class="row">
+	<div class="col-md-12">
+	<div class="pull-right">
+
+	<button class="btn btn-default">Cancel</button>
+	<button class="btn btn-default btn-fill" data-toggle="modal" data-target="#myModal6">Save</button>
+	</div>
+	</div>
+
+	</div>
+
+</div>
+
+
+<script type="text/javascript">
+
+ $('.datepicker').datepicker({
+    
+             weekStart:1,
+    
+             color: '{color}'
+    
+    });
+
+ </script>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Recurring Order</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-xs-4">
+                    <p class="formy pull-right"><b>Recurs</b></p>
+                  </div>
+                  <div class="col-xs-8">
+                    <select name="huge" class="selectpicker" data-style="form-control border-input" data-menu-style="">
+    
+                        <option value="1">Daily</option>
+                        <option value="1">Every Weekday (Mon-Fri) </option>
+                        <option value="1">Every Mon, Wed, Fri </option>
+                        <option value="1">Every Tues & Thurs </option>
+                        <option value="1">Weekly </option>
+                        <option value="1">Monthly </option>
+                        <option value="1">Yearly </option>
+                    
+                        
+                    
+                    </select>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-4">
+                    <p class="formy pull-right"><b>Repeat every</b></p>
+                  </div>
+                  <div class="col-xs-3">
+                    <select name="huge" class="selectpicker" data-style="form-control border-input" data-menu-style="">
+    
+                        <option value="1">1</option>
+                        <option value="1">2</option>
+                        <option value="1">3</option>
+                        <option value="1">4</option>
+                        <option value="1">5</option>
+                        <option value="1">6</option>
+                        <option value="1">7</option>
+                    
+                        
+                    
+                    </select>
+                  </div>
+                  <div class="col-xs-5">
+                    <p class="formy pull-left">weeks</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-4">
+                    <p class="formy pull-right"><b>Repeat on</b></p>
+                  </div>
+                  <div class="col-xs-8">
+                    <label class="form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> Mon
+                    </label>
+                    <label class="form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"> Tue
+                    </label>
+                    <label class="form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"> Wed
+                    </label>
+                    <label class="form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"> Thu
+                    </label>
+                    <label class="form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"> Fri
+                    </label>
+                    <label class="form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"> Sat
+                    </label>
+                    <label class="form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"> Sun
+                    </label>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-xs-4">
+                    <p class="formy pull-right"><b>Starts On</b></p>
+                  </div>
+                  <div class="col-xs-8">
+                    <input class="datepicker form-control border-input" type="text"/>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-xs-4">
+                    <p class="formy pull-right"><b>End</b></p>
+                  </div>
+                  <div class="col-xs-8">
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        Never
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-3 col-xs-offset-4">
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        After
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-2">
+                    <div class="form-check">
+                       <div class="form-group">
+    
+                            <input type="" value="" placeholder="" class="form-control border-input pull-left" />
+                        
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-3">
+                    <p class="formy pull-left">Occurances</p>
+                  </div>
+                </div>
+
+                 <div class="row">
+                  <div class="col-xs-3 col-xs-offset-4">
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        On
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-5">
+                    <div class="form-check">
+                       <div class="form-group">
+    
+                            <input class="datepicker form-control border-input" type="text"/>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-4">
+                    <p class="formy pull-right"><b>Summary</b></p>
+                  </div>
+                  <div class="col-xs-8">
+                    <p class="formy pull-left"><b>Weekly on Monday, until 18 Sep 2016</b></p>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+              <div class="modal-footer">
+                <div class="modal-footer">
+                  <div class="left-side">
+                      <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Cancel</button>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="right-side">
+                      <button type="button" class="btn btn-info btn-simple">Done</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Edit Recurring Order</h4>
+              </div>
+              <div class="modal-body">
+              <p>Would you like to change this order only, all orders in the series or this and all following orders in the series?</p>
+              <hr>
+              <div class="row">
+                <div class="col-md-6">
+
+                  <button class="btn btn-default">Only this instance</button>
+
+                </div>
+                <div class="col-md-6">
+
+                  <p>All other orders in the series will be retained.</p>
+
+                </div>
+
+              </div>
+              <hr>
+
+              <div class="row">
+                <div class="col-md-6">
+
+                  <button class="btn btn-default">All the following</button>
+
+                </div>
+                <div class="col-md-6">
+
+                  <p>This and all the following orders will be deleted.</p>
+
+                </div>
+
+              </div>
+              <hr>
+
+              <div class="row">
+                <div class="col-md-6">
+
+                  <button class="btn btn-default">All orders in this series</button>
+
+                </div>
+                <div class="col-md-6">
+
+                  <p>All orders in the series will be deleted.</p>
+
+                </div>
+
+              </div>
+              </div>
+              <div class="modal-footer">
+                
+                <div class="divider"></div>
+                <div class="right-side">
+                    <button type="button" class="btn btn-danger btn-simple">Cancel this change</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Discount Order</h4>
+              </div>
+              <div class="modal-body">
+              <div class="row">
+                <p>Discount this order by</p>
+
+
+              </div>
+
+
+              <div class="row">
+            <div class="col-xs-4">
+              <ul class="nav nav-pills nav-pills-blue">
+      
+      
+                    <li class="active"><a href="#">£</a></li>
+              
+                    <li><a href="#"> %</a></li>
+
+              </ul>
+            </div>
+            <div class="col-xs-8">
+              <input type="text" placeholder="£3.00" class="form-control border-input">
+            </div>
+
+            </div>
+            </div>
+
+
+              <div class="modal-footer">
+                <div class="modal-footer">
+                  <div class="left-side">
+                      <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Cancel</button>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="right-side">
+                      <button type="button" class="btn btn-info btn-simple">Done</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Delivery fee</h4>
+              </div>
+              <div class="modal-body">
+              <div class="row">
+                <div class="col-xs-12">
+                <p>Add delivery fee</p>
+                </div>
+              </div>
+
+
+              <div class="row">
+            <div class="col-xs-12">
+              <div class="input-group border-input">
+                            <span class="input-group-addon">£</span>
+                            <input type="text" placeholder="£3.00" class="form-control border-input">
+                    </div>
+            </div>
+
+            </div>
+            </div>
+
+
+              <div class="modal-footer">
+                <div class="modal-footer">
+                  <div class="left-side">
+                      <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Cancel</button>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="right-side">
+                      <button type="button" class="btn btn-info btn-simple">Done</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">VAT</h4>
+              </div>
+              <div class="modal-body">
+              <div class="row">
+                <div class="col-xs-12">
+                <p>VAT is automatically calculated at <a>20%</a></p>
+                </div>
+              </div>
+
+
+              <div class="row">
+            <div class="col-xs-12">
+              <label class="checkbox checkbox-default checked" for="checkbox1">
+    
+        <span class="icons"><span class="first-icon fa fa-square fa-base"></span><span class="second-icon fa fa-check-square fa-base"></span></span><input type="checkbox" value="" id="checkbox1" data-toggle="checkbox" checked="">
+    
+        Charge VAT
+    
+    </label>
+            </div>
+
+            </div>
+            </div>
+
+
+              <div class="modal-footer">
+                <div class="modal-footer">
+                  <div class="left-side">
+                      <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Cancel</button>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="right-side">
+                      <button type="button" class="btn btn-info btn-simple">Done</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+
+   
+
+		
+          

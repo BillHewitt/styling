@@ -1,0 +1,267 @@
+    <div id="navbar">
+    
+        <nav class="navbar navbar-default" role="navigation">
+    
+          <div class="container">
+    
+            <div class="navbar-header">
+    
+    
+              <%= link_to "Cocoon", root_path, class: "navbar-brand" %>
+    
+            </div>
+    
+          </div><!-- /.container-fluid -->
+    
+        </nav>
+    
+    </div><!--  end navbar --> 
+
+</div>          
+<div class="whole-page">
+  <div class="wrapper">
+    <div class="section section-white whole-page">
+      <div class="container">
+        <div class="row">
+		      <div class="col-sm-6 col-xs-12">
+		        <h3>
+        		Orders
+		        </h3>
+		      </div>
+          <div class="col-md-6 col-sm-12">
+            <h3>
+            <button href="#" class="dropdown-toggle btn btn-fill btn-primary btn-move-right pull-right" data-toggle="dropdown" aria-expanded="false">Add order <i class="ti-plus"></i></button>
+            </h3>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-12">
+            <bill>8 - 14 Aug 2016</bill>
+              <a href="#" class="btn btn-simple">
+                   <i class="fa fa-angle-double-left fa-2x"></i>
+              </a>
+              <button class="btn btn-default btn-sm">Today</button>
+              <a href="#" class="btn btn-simple">
+                   <i class="fa fa-angle-double-right fa-2x"></i>
+              </a>
+             <div class="btn-group inline pull-right" data-toggle="buttons-checkbox"> 
+              <div class="btn btn-sm">DAY</div> 
+              <div class="btn btn-sm active">WEEK</div> 
+            </div> 
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          <h4>Monday 8<sup>th</sup></h4>
+          <div class="card card-with-shadow" data-toggle="modal" data-target="#myModal" data-background="color" data-color="yellow">                                            
+              <div class="content">
+                  <h6 class="category">For Delivery</h6>
+                  <h4 class="title"><a href="#">Company Name A</a></h4>
+                  <p class="edited">Last updated by Bill on 14/6/16</p>
+              </div>                                           
+          </div>
+          <div class="card card-with-shadow" data-toggle="modal" data-target="#myModal" data-background="color" data-color="yellow">                                            
+              <div class="content">
+                  <h6 class="category">For Collection</h6>
+                  <h4 class="title"><a href="#">Company Name B</a></h4>
+                  <p class="edited">Created by Pete on 14/6/16</p>
+              </div>                                           
+          </div>
+          <div class="card card-with-shadow" data-toggle="modal" data-target="#myModal" data-background="color" data-color="yellow">                                            
+              <div class="content">
+                  <h6 class="category">For Delivery</h6>
+                  <h4 class="title"><a href="#">Company Name C</a></h4>
+                  <p class="edited">Last updated by Tim on 14/6/16</p>
+              </div>                                           
+          </div>
+
+          
+            
+          </div>
+
+
+          <div class="col-md-2">
+          <h4>Tuesday 9<sup>th</sup>
+          
+            
+          </div>
+        </div>
+
+
+
+
+
+</div>
+</div>
+</div>
+
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Company Name A</h4>
+                <h6 class="modal-title" id="myModalLabel">For Delivery</h6>
+              </div>
+              <div class="modal-body">
+              <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Slice</th>
+                            <th class="text-right">Qty</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>                          
+                            <td>Product 1</td>
+                            <td>None</td>
+                            <td class="text-right">20</td>
+                        </tr>
+                        <tr>                          
+                            <td>Product 4</td>
+                            <td>Thin</td>
+                            <td class="text-right">40</td>
+                        </tr>
+                        <tr>                          
+                            <td>Product 3</td>
+                            <td>Thick</td>
+                            <td class="text-right">24</td>
+                        </tr>
+                        <tr>                          
+                            <td>Product 6</td>
+                            <td>None</td>
+                            <td class="text-right">34</td>
+                        </tr>
+                        <tr>                          
+                            <td>Product 2</td>
+                            <td>None</td>
+                            <td class="text-right">34</td>
+                        </tr>
+                    </tbody>
+                </table>
+              </div>
+<hr>
+              <div class="row">
+                <div class="container">
+                  <h3>Total = £90.00</h3>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="container">
+                  <p>Ready to invoice?
+                   <div class="switch ct-green"
+        
+                    data-on-label="<i class='fa fa-check'></i>"
+                  
+                    data-off-label="<i class='fa fa-times'></i>">
+                  
+                    <input type="checkbox" unchecked/>
+                  
+                  </div>
+                  </p>
+              </div>
+              </div>
+              </div>
+
+              <div class="modal-footer">
+                <div class="left-side">
+                    <button type="button" class="btn btn-default btn-simple" data-dismiss="modal" data-toggle="modal" data-target="#myModal1">Delete Order</button>
+                </div>
+                <div class="divider"></div>
+                <div class="right-side">
+                    
+                    <%= link_to "Edit Order", pages_neworder_path, class: "btn btn-info btn-simple" %>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Delete Recurring Order</h4>
+              </div>
+              <div class="modal-body">
+              <p>Would you like to delete only this order, all orders in the series or this and all future orders in the series?</p>
+              <hr>
+              <div class="row">
+                <div class="col-md-6">
+
+                  <button class="btn btn-default">Only this instance</button>
+
+                </div>
+                <div class="col-md-6">
+
+                  <p>All other orders in the series will be retained.</p>
+
+                </div>
+
+              </div>
+              <hr>
+
+              <div class="row">
+                <div class="col-md-6">
+
+                  <button class="btn btn-default">All the following</button>
+
+                </div>
+                <div class="col-md-6">
+
+                  <p>This and all the following orders will be deleted.</p>
+
+                </div>
+
+              </div>
+              <hr>
+
+              <div class="row">
+                <div class="col-md-6">
+
+                  <button class="btn btn-default">All orders in this series</button>
+
+                </div>
+                <div class="col-md-6">
+
+                  <p>All orders in the series will be deleted.</p>
+
+                </div>
+
+              </div>
+
+
+
+
+
+
+
+
+
+              </div>
+              <div class="modal-footer">
+                
+                <div class="divider"></div>
+                <div class="right-side">
+                    <button type="button" class="btn btn-danger btn-simple">Cancel this change</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+		
+
+<script type="text/javascript">
+	$('.btn-tooltip').tooltip();
+</script>
+          

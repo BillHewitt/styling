@@ -46,5 +46,11 @@ class PagesController < ApplicationController
 
   def confirmation
   end
+
+  def orders
+  end
+
+  def neworder
+  end
   
 end

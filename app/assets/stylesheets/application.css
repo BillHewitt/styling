@@ -81,4 +81,34 @@ padding-top: 10px;
 h3 {
     margin: 30px 0 30px;
 }
+
+bill {
+    padding-right: 15px;
+}
+
+p.edited {
+    font-size: 13px;
+color: #d8af53;
+}
+
+td.text-right {
+    padding-top: 20px;
+padding-right: 25px;
+}
+
+p.formy.pull-right {
+    padding-top: 6px;
+}
+
+p.formy.pull-left {
+    padding-top: 6px;
+}
+
+div.form-check {
+    padding-top: 10px;
+}
+
+input.form-control.border-input.pull-left {
+    margin-top: -10px;
+}
  
