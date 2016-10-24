@@ -15,6 +15,7 @@ gem 'themify-icons-rails'
 gem "font-awesome-rails"
 gem 'paper_kit_pro', '1.0.4.2', :path => 'lib/paper_kit_pro'
 gem 'devise'
+gem 'hover-rails', '~> 2.0', '>= 2.0.2'
 
 
 

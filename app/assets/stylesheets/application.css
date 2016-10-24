@@ -15,8 +15,16 @@
  *= require_self
  */
 
-.header-wrapper .header {
+
+ .header-wrapper .header .container {
+    color: #FFFFFF;
+    position: relative;
     height: 650px;
+    z-index: 3;
+}
+
+.header-wrapper .header {
+   height: 650px; 
 }
 
 .header-wrapper .header .filter::after {
@@ -111,4 +119,19 @@ div.form-check {
 input.form-control.border-input.pull-left {
     margin-top: -10px;
 }
+
+h2.cheese {
+    font-weight: 800;
+}
+
+blockquote {
+    font-style: normal;
+}
+
+h3.text-center.heading {
+    font-weight: 800;
+}
+
+
+
  
