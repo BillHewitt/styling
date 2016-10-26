@@ -129,7 +129,8 @@ blockquote {
 }
 
 h3.text-center.heading {
-    font-weight: 800;
+    font-weight: 500;
+    font-size: 38px;
 }
 
 p.landing {
@@ -145,6 +146,8 @@ p.landing {
 div.section.section-white-grey {
     margin-bottom: -23px;
 }
+
+
 
 
 
