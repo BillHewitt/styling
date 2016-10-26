@@ -131,6 +131,8 @@ blockquote {
 h3.text-center.heading {
     font-weight: 500;
     font-size: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 p.landing {
