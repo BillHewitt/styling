@@ -121,7 +121,7 @@ input.form-control.border-input.pull-left {
 }
 
 h2.cheese {
-    font-weight: 800;
+    font-weight: 600;
 }
 
 blockquote {
@@ -147,6 +147,10 @@ p.landing {
 
 div.section.section-white-grey {
     margin-bottom: -23px;
+}
+
+button.btn {
+    margin-top: 35px;
 }
 
 
